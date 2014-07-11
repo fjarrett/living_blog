@@ -1,0 +1,296 @@
+/*=================================
+ *Typography
+ ================================*/
+body {
+	font-family: 'Gruppo', cursive;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+a {
+	color: #E8E8E8;
+
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: 700;
+
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+/*===================================
+ *Header
+ ==================================*/
+
+header {
+	margin: 2% 0 0% 0;
+}
+
+hgroup{
+	margin: -2% 1% 1% 0;
+	float: left;
+}
+
+hgroup a {
+	color: #66E066;
+}
+
+nav {
+	display: -webkit-box;
+	-webkit-box-orient:horizontal;
+	padding: 0% 0;
+	margin: 2% 0 0% 30%;
+	}
+
+nav a {
+	font-family: 'Poiret+One', sans-serif;
+	font-weight: 200;
+	display:block;
+	-webkit-box-flex:2;
+	text-align:center;
+	font-size: .95em;
+	color: #E0DEE0;
+	}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8%;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.3); /*dim the background*/
+}
+
+/*===================================
+ *Body
+ ==================================*/
+
+#tagline {
+	margin: 3% 0% 0% 34%;
+	font-weight: 900;
+	color: #fff;
+}
+
+#opening {
+	margin: 13% 0 0 3%;
+	font-family: 'Raleway';
+	font-weight: 200;
+	font-size: 1.9em;
+	color: #AAAAAA;
+	float: left;
+}
+
+/*Surrounds the featured posts. Convert to slider in WordPress.*/
+.slider {
+	float: right;
+	margin: 13% 0 0 0;
+	width: 60%;
+	height: 420px;
+	background: #FF9966;
+}
+
+article {
+	float: right;
+	margin: 0% 0 0 0;
+}
+
+article h2 {
+	font-family: 'Raleway';
+	font-weight: 400;
+	font-size: 2em;
+	color: #878585;
+}
+
+article h3 {
+	font-family: 'Raleway';
+	font-weight: 300;
+	font-size: 1.5em;
+	color: #3E3E3E;
+}
+
+.info {
+	list-style: none;
+	font-family: 'Poiret+One', sans-serif;
+	font-weight: 100;
+	color: #AAAAAA;
+}
+
+.info li a{
+	color: #A3ECA3;
+}
+
+.info li a:hover{
+	color: #66E066;
+}
+
+.excerpt {
+	font-family: 'Raleway';
+	font-weight: 200;
+	font-size: 1em;
+	color: #3E3E3E;
+}
+
+#call_button {
+	clear: both;
+	margin: -4% 0% 0 20%;
+	padding: 5px 3px 5px 3px;
+	font-family: 'Raleway';
+	font-size: 2em;
+	text-align: center;
+	border-radius: 50px;
+	background: #B4B4B4;
+	background: -moz-linear-gradient(0% 100% 90deg, ##B4B4B4, ##979797);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(##979797), to(##B4B4B4));
+}
+
+#call_button:hover {
+  background: #979797;
+  background: -moz-linear-gradient(0% 100% 90deg, ##B4B4B4, #979797);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#979797), to(##B4B4B4));
+  border-top: 1px solid #979797;
+  border-right: 1px solid #979797;
+  border-bottom: 1px solid #B4B4B4;
+  border-left: 1px solid #979797;
+  -moz-box-shadow: inset 0 1px 0 0 #979797;
+  -webkit-box-shadow: inset 0 1px 0 0 #B4B4B4;
+  cursor: pointer;
+  text-shadow: 0 -1px 1px #B4B4B4;
+}
+
+#actions {
+	clear: both;
+	margin: 0% 0% 9% 1%;
+	text-align: center;
+}
+
+#actions p {
+	font-family: 'Raleway';
+	font-weight: 300;
+	font-size: .95em;
+}
+
+#blog {
+	margin: 10% 0% 5% 0%;
+}
+
+#blog h3 a {
+	font-size: 1.7em;
+	font-family: 'Poiret+One', sans-serif;
+	font-weight: 300;
+	color:#181414;
+}
+
+#blog h3 a:hover {
+	color: rgba(0,0,0,0.2);
+}
+
+#sermon {
+	margin: 10% 0% 5% 0%;
+}
+
+#sermon h3 a {
+	font-size: 1.7em;
+	font-family: 'Poiret+One', sans-serif;
+	font-weight: 300;
+	color:#181414;
+}
+
+#sermon h3 a:hover {
+	color: rgba(0,0,0,0.2);
+}
+
+#video {
+	margin: 10% 0% 5% 0%;
+}
+
+#video h3 a {
+	font-size: 1.7em;
+	font-family: 'Poiret+One', sans-serif;
+	font-weight: 300;
+	color:#181414;
+}
+
+#video h3 a:hover {
+	color: rgba(0,0,0,0.2);
+}
+
+/*====================================
+ *Footer
+ ===================================*/
+
+.footer {
+	width: 100%;
+	height: 263px;
+	background: #5AAF5A;
+	}
+
+#living_blog_links {
+	clear: both;
+	margin: 0% 0% 0% 20%;
+	list-style: none;
+}
+
+#living_blog_links h3 a {
+	margin-left: 7%;
+	color: #2A2A2A;
+}
+
+#living_blog_links h3 a:hover {
+	color: #fff;
+}
+
+#living_blog_links ul li {
+	list-style: none;
+	text-align: left;
+}
+
+#living_hope_links {
+	margin: 0% 0% 0% 0%;
+	padding-right: 0%;
+}
+
+#living_hope_links h3 a {
+	margin-left: 7%;
+	color: #2A2A2A;
+}
+
+#living_hope_links h3 a:hover {
+	color: #fff;
+}
+
+#living_hope_links ul li {
+	list-style: none;
+}
+
+#copyright {
+	margin-left: 37%;
+	margin-top: 1%;
+	color: #BEC6BE;
+	font-size: .95em;
+}
+
+#copyright h3 {
+	margin-top:0%;
+	margin-bottom: 0%;
+}
+
+.ss-icon {
+	clear: both;
+	margin: 1% 0% 0% 30%;
+	padding-bottom: -5%;
+	font-size: 1.2em ;
+}
+
+.ss-icon a {
+	color: #ccc;
+	padding-left: 8%;
+}
+
+.ss-icon a:hover {
+	color: #666;
+}
